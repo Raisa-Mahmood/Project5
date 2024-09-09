@@ -1,0 +1,60 @@
+/* This is the header, element selector */
+header{
+    margin: 4px;
+    padding: 5px;
+    background-color:lavender;
+}
+/* This is the main body, element selector */
+body{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* This is universal selector */
+*{
+    background-color: azure;
+}
+
+.p1{
+    width: 250px;
+    float:inline-end
+
+}
+/* This is id selector */
+#pu{
+    float: inline-start;
+}
+h1{
+    font-size:xx-large ;
+    font-weight: 600;
+}
+.sp{
+    font-size: 17px;
+    font-weight: 900;
+    color: indigo;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* This is class selector */
+.p2{
+ font-size: large;
+ color: rebeccapurple;
+ font-weight: 900;
+}
+#p1{
+    font-size: medium;
+    color: green;
+    font-weight: 600;
+}
+.f{
+   background-color: honeydew  
+
+}
+
+.random{
+    color: teal;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* group selector */
+footer,h4,ul,#k,.ty,fieldset{
+    background-color: lavenderblush;
+}
